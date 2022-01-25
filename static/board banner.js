@@ -10,7 +10,7 @@ var h3=document.getElementsByTagName('h3');
 function reset(){
 	h3[0].innerHTML="ㅤ";
 	h3[1].innerHTML="ㅤ";
-	setTimeout(text1,1000);
+	setTimeout(text1,1500);
 }
 
 function text1(){
@@ -22,7 +22,7 @@ function text1(){
 	}
 	h3[0].style.color=color;
 	h3[0].innerHTML=str[0];
-	setTimeout(text2,1000);
+	setTimeout(text2,1500);
 }
 
 function text2(){
@@ -34,7 +34,7 @@ function text2(){
 	}
 	h3[1].style.color=color;
 	h3[1].innerHTML=str[1];
-	setTimeout(reset,1000);
+	setTimeout(reset,1500);
 }
 
-setTimeout(text1,1000);
+setTimeout(text1,1500);
