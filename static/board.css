@@ -20,7 +20,7 @@
 }
 
 body{
-	background: linear-gradient(to right bottom, #ffe4e1, #f0ffff, #ffe4e1, #f0ffff);
+	background: linear-gradient(to bottom, #ffe4e1, #f0ffff, #ffe4e1);
 	/** background: linear-gradient(to right bottom, #e6e6fa, #f0fff0, #e6e6fa, #f0fff0); **/
 }
 
