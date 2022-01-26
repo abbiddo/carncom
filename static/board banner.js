@@ -10,7 +10,7 @@ var h3=document.getElementsByTagName('h3');
 function reset(){
 	h3[0].innerHTML="ㅤ";
 	h3[1].innerHTML="ㅤ";
-	setTimeout(text1,1500);
+	setTimeout(text1,500);
 }
 
 function text1(){
@@ -37,4 +37,4 @@ function text2(){
 	setTimeout(reset,1500);
 }
 
-setTimeout(text1,1500);
+setTimeout(text1,0);
