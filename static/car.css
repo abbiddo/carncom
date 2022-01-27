@@ -20,7 +20,7 @@
 }
 
 body{
-	background: linear-gradient(to bottom, #ffe4e1, #f0ffff, #ffe4e1);
+	background: linear-gradient(to bottom, #e6e6fa, #f0fff0, #e6e6fa);
 }
 
 .layout{
@@ -48,7 +48,7 @@ body{
 
 .mini{
 	width: 100px; 
-	margin: 30px auto auto 40px;
+	margin: 30px;
 }
 
 .main{

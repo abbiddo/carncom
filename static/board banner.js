@@ -16,9 +16,8 @@ function reset(){
 function text1(){
 	color="#";
 	for (i=0;i<6;i++){
-		n=Math.floor(Math.random()*20);
-		if (n<16) color+=colorlist[n];
-		else i--;
+		n=Math.floor(Math.random()*15);
+		color+=colorlist[n];
 	}
 	h3[0].style.color=color;
 	h3[0].innerHTML=str[0];
